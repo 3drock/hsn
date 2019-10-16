@@ -1,0 +1,91 @@
+body{
+    /* background-color: black; */
+    background-image: url("2.webp");
+}
+
+.header h1{
+    border: 5px solid white;
+    width: 250px;
+    color: white;
+    position: relative;
+    left: 38%;
+    margin-top: 40px;
+}
+
+#canvasOne{
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+}
+
+#option{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
+
+#button{
+    height: 40px;
+    width: 200px;
+}
+
+#mySelect{
+    height: 40px;
+    width: 200px;
+}
+
+
+
+#x img{
+    height:50px;
+    width: 250px;
+    margin-top: 0px;
+    border: 5px solid white;
+}
+
+#color{
+    margin-top: 110px; 
+    color: white;
+}
+
+.flex-container1{
+    background-image: url("2.webp");
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container1 li{
+    color: white;
+}
+
+.h11 {
+    list-style: none;
+    padding-left:0;
+    margin: 0;
+    padding: 0;
+}
+
+.h11 li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.h11 li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.h11 li a:hover{
+    color:#B314DB; 
+}
+
+.textcenter{
+    text-align: center;
+}
