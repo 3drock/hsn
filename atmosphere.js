@@ -139,3 +139,9 @@
         // Create a layer manager for controlling layer visibility.
         var layerManager = new LayerManager(wwd);
         }
+        function screenshot()
+        {
+            html2canvas(document.querySelector("body")).then(canvas => {
+                document.body.appendChild(canvas)
+        });
+        }

@@ -89,3 +89,12 @@ body{
 .textcenter{
     text-align: center;
 }
+
+ #capture
+{
+    position: absolute;
+    right: 5%;
+    height: 40px;
+    width: 150px;
+    color: black;
+}

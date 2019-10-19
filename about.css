@@ -1,0 +1,112 @@
+body{
+    /* background-color:black; */
+    background-image: url("2.webp");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    /* line-height: 1.5; */
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+.highlight
+{
+    color:white;
+    font-weight: bold;
+    font-size:30px;
+   
+    
+}
+#branding
+{
+float:left;
+margin-left: 400px;    
+}
+header{
+
+   }
+
+h3{
+    color:white;
+    text-align:center;
+    font-size:3rem;
+    margin-top:5px;
+    background-color:white;
+    color:#e8491d;
+
+}
+
+#aboutcontainer{
+    background-color:white;
+    height:500%;
+    width: 80%;
+    margin-left: 145px;
+    background: radial-gradient(#F8F594,lightyellow);
+    
+}
+
+
+#img2{
+    height: 300px;
+    width: 700px;
+    margin-left: 20%;
+    border: 5px solid darkred;
+}
+
+#img3{
+    height: 400px;
+    width: 800px;
+    margin-left:17%;
+    border: 5px solid darkslategray;
+
+}
+
+h1{
+    margin-left: 20px;
+    font-family:fantasy;
+    font-size: 45px;
+    color: #316901;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+    margin-right: 20px;
+}
+.about{
+    
+    
+    
+    font-size: 25px;
+
+}
+
+footer{
+    /* margin-bottom: -50px; */
+    margin: -10px 0 -20px 0 ;
+   
+}
+
+#footer{
+    margin:10px;
+    color: black;
+    background-image: radial-gradient(rgba(255, 166, 0, 0.705),rgba(255, 0, 0, 0.712))
+    
+}
+
+#img1{
+    margin-left: 28%;
+    border: 5px solid black;
+}
+
+#video{
+    margin-left: 17%;
+}
+

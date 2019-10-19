@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("socialbg.png");
+    background-size: cover;
+
+
+}
+
+#bg{
+    background-size: cover;
+    /* background-position: center;
+    background-attachment: fixed; */
+}
+
+#main{
+    display: flex;
+    margin: 0px 20px 20px 20px;
+    left: 15%;
+    top: 40%;
+   
+    position: absolute;
+}
+i{
+    font-size: 100px;
+    border-radius: 10%;
+    border: 10px solid black;
+    margin-left:80px;
+}
+
+i:hover{
+    border: 10px solid darkblue;
+    box-shadow: 0px 0px 40px 0px yellow;
+}
+
+#fb{
+    color: blue;
+    opacity: 1;
+}
+#gg{
+    color: darkred;
+    opacity: 1;
+}
+
+#tw{
+    color: blue;
+    opacity: 1;
+}
+
+#yu{
+    color: red;
+    opacity: 1;
+}
+
+#git{
+    color: black;
+    opacity: 1;
+}
+
+.i{
+    opacity: 1;
+    
+}
+
+h3{
+    font-size: 45px;
+    font-weight: bolder;
+top: 10%;
+left: 10%;
+position: absolute;
+background-color:white;
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bolder;
+top: 65%;
+left: 14%;
+position: absolute;
+background-color:white;
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+}
