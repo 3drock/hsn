@@ -1,112 +1,107 @@
 body{
-    /* background-color:black; */
     background-image: url("2.webp");
     font-family: Arial, Helvetica, sans-serif;
-    font-size:15px;
-    /* line-height: 1.5; */
+    font-size:1rem;
     padding: 0;
     margin: 0;
 }
 .container
 {
-    width:80%;
+    width:50vw;
     margin:auto;
     overflow: hidden;
 }
-.highlight
+
+#brand
 {
     color:white;
     font-weight: bold;
-    font-size:30px;
-   
-    
+    font-size:1.5rem;  
+    text-align: center;
 }
-#branding
-{
-float:left;
-margin-left: 400px;    
-}
-header{
 
-   }
-
-h3{
-    color:white;
-    text-align:center;
-    font-size:3rem;
-    margin-top:5px;
-    background-color:white;
-    color:#e8491d;
-
+#about{
+    color:black;
+    font-weight: bold;
+    font-size:2.5rem;  
+    text-align: center;
+    background-color: white;
 }
 
 #aboutcontainer{
     background-color:white;
-    height:500%;
-    width: 80%;
-    margin-left: 145px;
-    background: radial-gradient(#F8F594,lightyellow);
-    
+    height:510vh;
+    width: 80vw;
+    margin-left:9vw;
+    background: radial-gradient(white,lightyellow);
+}
+
+@media screen and (max-width: 500px){
+    #aboutcontainer{
+        background-color:white;
+        height:600vh;
+        width: 80vw;
+        margin-left:9vw;
+        background: radial-gradient(white,lightyellow);
+    }
 }
 
 
 #img2{
-    height: 300px;
-    width: 700px;
-    margin-left: 20%;
+    height: 40vh;
+    width: 45vw;
+    margin-left: 15vw;
     border: 5px solid darkred;
 }
 
 #img3{
-    height: 400px;
-    width: 800px;
-    margin-left:17%;
+    height: 50vh;
+    width: 50vw;
+    margin-left:14vw;
     border: 5px solid darkslategray;
 
 }
 
 h1{
-    margin-left: 20px;
-    font-family:fantasy;
-    font-size: 45px;
+    margin-left:2vw;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.7rem;
     color: #316901;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 p{
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 1.5vw;
+    font-size: 1.56rem;
     color: black;
     text-align: justify;
-    margin-right: 20px;
+    margin-right: 1.5vw;
 }
-.about{
+.about{   
+    font-size: 1.5rem;
+    width: 60%;
     
     
-    
-    font-size: 25px;
-
-}
-
-footer{
-    /* margin-bottom: -50px; */
-    margin: -10px 0 -20px 0 ;
-   
 }
 
 #footer{
-    margin:10px;
+    margin:2vh;
     color: black;
-    background-image: radial-gradient(rgba(255, 166, 0, 0.705),rgba(255, 0, 0, 0.712))
-    
+    background-color: white;
+    height: 15vh;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
 }
 
 #img1{
-    margin-left: 28%;
+    margin-left: 23vw;
     border: 5px solid black;
 }
 
 #video{
-    margin-left: 17%;
+    margin-left: 18vw;
+    height: 50vh;
+    width: 40vw;
 }
 
